@@ -138,7 +138,7 @@ def maps(df1):
 #--------------------------------
 #  IMPORTANDO DATASET
 #--------------------------------
-df_raw = pd.read_csv('C:/Users/Thiago/Desktop/DADOS/repos/ftc_programacao_python/dataset/train.csv')
+df_raw = pd.read_csv('dataset/train.csv')
 
 #--------------------------------
 #  LIMPEZA DATASET
