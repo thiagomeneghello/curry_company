@@ -85,7 +85,7 @@ def top_delivers(df1, top_asc):
 #--------------------------------
 #  IMPORTANDO DATASET
 #--------------------------------
-df_raw = pd.read_csv('C:/Users/Thiago/Desktop/DADOS/repos/ftc_programacao_python/dataset/train.csv')
+df_raw = pd.read_csv('dataset/train.csv')
 
 #--------------------------------
 #  LIMPEZA DATASET
@@ -100,8 +100,7 @@ df1 = clean_code( df_raw )
 #===============================
 st.header(" Marketplace - Visão Entregador")
 
-image_path = "C:/Users/Thiago/Desktop/DADOS/repos/ftc_programacao_python/logo1.png"
-image = Image.open( image_path)
+image = Image.open( 'logo1.png' )
 st.sidebar.image( image, width=120 )
 
 st.sidebar.markdown("# Curry Company")
