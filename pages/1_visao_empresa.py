@@ -152,8 +152,8 @@ df1 = clean_code( df_raw )
 #===============================
 st.header(" Marketplace - Visão Cliente")
 
-image_path = "C:/Users/Thiago/Desktop/DADOS/repos/ftc_programacao_python/logo1.png"
-image = Image.open( image_path)
+#image_path = "C:/Users/Thiago/Desktop/DADOS/repos/ftc_programacao_python/logo1.png"
+image = Image.open( 'logo1.png' )
 st.sidebar.image( image, width=120 )
 
 st.sidebar.markdown("# Curry Company")
